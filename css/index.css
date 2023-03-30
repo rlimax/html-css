@@ -1,0 +1,54 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #BA1F33;
+    border-bottom: 10px solid #000;
+    padding: 10px 20px;
+}
+h1{
+    font-family: "play", sans-serif;
+}
+nav{
+    text-align: right;
+}
+a{
+    display: inline-flex;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: "Fira Code", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+}
+a:not(:last-child)::before{
+    content:"";
+    background-color: #F25A70;
+    background-color: #000;
+    height: 10px;
+    width: 10px;
+    margin-right: 10px;
+}
+#button{
+    display: inline-block;
+    background-color: #F25A70;
+    padding: 18px 20px;
+    box-shadow: 5px 5px 0px #000;
+    margin-right: 0px;
+    transition: background-color .5s linear, transform .5s cubic-bezier(.2,-5,.58,1), color .5s linear, box-shadow .5s linear;
+
+}
+#button:hover{
+    transform: scale(.95);
+    background-color: #BA1F33;
+    color: #FFF;
+    box-shadow: 0px 0px 0px #000;
+}
+
+/*
+    display: Inline/Block/Inline-Block
+    propriedade: 0px 0px 0px - Ultimo bottom
+    pseudo-elemento ::before/::after
+    css-tricks
+    line-height
+*/
