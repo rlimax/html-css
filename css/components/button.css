@@ -9,7 +9,7 @@
     text-decoration: none;
     transition: background-color .5s linear, transform .5s cubic-bezier(.2,-5,.58,1), color .5s linear, box-shadow .5s linear;
 }
-.button:nth-last-child(-n+1):hover{
+nav .button:last-child:hover{
     transform: scale(.95);
     background-color: #BA1F33;
     color: #FFF;
