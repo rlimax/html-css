@@ -12,19 +12,62 @@
     padding-top: 115px;
     padding-left: 90px;
 }
-
 .banner .wrapper{
     display: flex;
     flex-direction: column;
     width: 640px;
 }
-
 .banner .box{
     margin-bottom: 40px;
 }
-
 .banner .navigation{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+.skill{
+    height: 800px;
+    background-color: #BA1F33;
+    text-align: center;
+    border-bottom: 10px solid purple;
+}
+.skill .title{
+    color: #fff;
+    padding-top: 40px;
+}
+.card{
+    display: flex;
+    text-align: left;
+    margin: 20px;
+}
+.bar{
+    display: block;
+    width: 200px;
+    height: 20px;
+    background-color: #000;
+    border: 3px solid black;
+}
+.bar-inside{
+    position: relative;
+    display: block;
+    background-color: greenyellow;
+    width: var(--i);
+    height: 20px;
+}
+.text{
+    display: inline;
+    color: #fff;
+}
+.text-card{
+    margin-left: 10px;
+}
+.filter{
+    filter:blur(2px);
+}
+.panel{
+    margin: 40px auto;
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
