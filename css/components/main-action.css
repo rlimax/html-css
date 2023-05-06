@@ -1,5 +1,5 @@
 
-.action{
+.main-action{
     display: inline-flex;
     align-items: center;
     color: #FFFFFF;
@@ -9,7 +9,7 @@
     text-decoration: none;
     margin-right: 30px;
 }
-.action::before{
+.main-action::before{
     content:"";
     background-color: #F25A70;
     height: 10px;
